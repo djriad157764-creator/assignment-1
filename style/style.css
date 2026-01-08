@@ -36,6 +36,10 @@ header{
     text-decoration: none;
     color:#000000;
     font-size: 16px;
+    transition: .5s ease;
+}
+.nav-section a:hover{
+    color: #469165;
 }
 .btn{
     display: flex;
@@ -127,9 +131,9 @@ header{
     transition: .5s ease;
 }
 .hero-btn .btn:hover{background: transparent;}
-.hero-btn .btn1:hover{background:#469165;}
+.hero-btn .btn-white:hover{background:#469165;}
 
-.btn1{
+.btn-white{
     display: flex;
     justify-content: center;
     align-items: center;
