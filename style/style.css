@@ -45,9 +45,16 @@ header{
     color: #FFFFFF;
     background: #469165;
     padding: 12px 16px;
-    border: none;
+    border:1px solid #469165;
     border-radius: 4px;
     margin: 24px 0;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.navbar .btn:hover{
+    background: #FFFFFF;
+    color: #469165;
+
 }
 
 /* hero section */
@@ -67,11 +74,17 @@ header{
 }
 .hero-section .custom-btn{
     display: flex;
-    border: none;
+    border:1px solid white;
     border-radius: 20px;
     padding: 8px 12px 8px 4px;
     gap: 1.5px;
+    transition: .5s ease;
 }
+.custom-btn:hover{
+  background: transparent;
+  color: #FFFFFF;
+}
+
 .hero-section .hero-header{
     text-align: center;
     width: 770px;
@@ -106,12 +119,16 @@ header{
 }
 .hero-btn .btn{
     display: flex;
+    border: 1px solid white;
     border-radius: 4px;
     height: 52px;
     padding: 12px 16px;
     gap: 5.5px;
-   
+    transition: .5s ease;
 }
+.hero-btn .btn:hover{background: transparent;}
+.hero-btn .btn1:hover{background:#469165;}
+
 .btn1{
     display: flex;
     justify-content: center;
@@ -229,7 +246,7 @@ margin-bottom: 16px;
 .challenges{
     display: flex;
     justify-content: center;
-    background: yellow;
+    background: #F7F6F2;
     margin: 2px 120px 120px 120px;
 }
 .challenges-part{
@@ -243,6 +260,11 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
 }
+.btn-div .btn:hover{
+    background: white;
+    color: #469165;
+}
+
 .challenges-part h1{
     font-size: 40px;
     font-weight: bold;
