@@ -124,6 +124,8 @@ header{
     border-radius: 4px;
   
 }
+/* card-section */
+
 .card-section{
     max-width: 1360px;
    background: azure;
@@ -178,4 +180,78 @@ header{
     line-height: 20px;
     color:#627382;
     margin-bottom: 16px;
+}
+/* brain-section */
+
+.brain-section{
+   display: flex;
+   gap: 60px;
+   align-items: center;
+   padding: 120px;
+}
+.brain-section .image-container{
+    width: 600px;
+    height: 600px;
+}
+.brain-section .Solution{
+    width: 700px;
+    height: 228px;
+}
+.Solution h5{
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.Solution h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.Solution p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.capture .chek{
+margin-bottom: 16px;
+
+}
+.capture .chek h4{
+    display: flex;
+margin-bottom: 16px;
+
+}
+
+/* challenges section */
+
+.challenges{
+    display: flex;
+    justify-content: center;
+    background: yellow;
+    margin: 2px 120px 120px 120px;
+}
+.challenges-part{
+    padding: 80px 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.challenges-part h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.challenges-part p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #627382;
+    margin-bottom: 24px;
 }
