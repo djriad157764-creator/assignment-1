@@ -1,3 +1,5 @@
 {
-    "livePreview.customExternalBrowser": "Edge"
+  "livePreview.customExternalBrowser": "Edge",
+  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "liveServer.settings.CustomBrowser": "chrome"
 }
