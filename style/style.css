@@ -169,6 +169,7 @@ header{
 .card-section .section-header h2{
     font-size: 48px;
     font-weight: bold;
+    color: #001931;
     text-transform: capitalize;
     margin-bottom: 16px;
 }
@@ -182,11 +183,16 @@ header{
    
 }
 .card-section .card-info .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 322px;
     height: 300px;
     background: #FFFFFF;
     border-radius: 8px;
     box-shadow:0 10px 15px 20px rgba(0,0,0,0.05);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 24px;
 }
 .card-info .card img{
@@ -215,15 +221,15 @@ header{
    display: flex;
    gap: 60px;
    align-items: center;
-   padding: 120px;
+   margin:  120px;
 }
 .brain-section .image-container{
     width: 600px;
     height: 600px;
 }
 .brain-section .Solution{
-    width: 700px;
-    height: 228px;
+   padding-right:140px;
+
 }
 .Solution h5{
     font-size: 16px;
@@ -235,21 +241,26 @@ header{
     color: #001931;
     font-weight: bold;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 .Solution p{
     font-size: 16px;
     color: #627382;
-    line-height: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.capture-list{
+   list-style: none;
+}
+.capture-list li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 16px;
 }
-.capture .chek{
-margin-bottom: 16px;
-
-}
-.capture .chek h4{
-    display: flex;
-margin-bottom: 16px;
-
+.capture-list li span{
+    font-size: 18px;
+    color: #001931;
 }
 
 /* challenges section */
@@ -269,8 +280,17 @@ margin-bottom: 16px;
 }
 .btn-div{
     display: flex;
+    /* padding: 16.5px 46px 16px 16.5px; */
     justify-content: center;
 }
+.btn-div i{
+    width: 25px;
+    height: 25px;
+   
+    margin-left: 10px;
+    padding: 3.43px 2.18px 0 2.19px;
+}
+
 .btn-div .btn:hover{
     background: white;
     color: #469165;
@@ -286,8 +306,8 @@ margin-bottom: 16px;
 .challenges-part p{
     font-size: 16px;
     line-height: 30px;
+    padding: 0 400px;
     color: #627382;
-    margin-bottom: 24px;
 }
 footer{
    
@@ -298,9 +318,10 @@ footer{
     width: 85%;
      display: flex;
      margin: 0 auto;
+    
     justify-content: space-between;
     align-items: center;
-     padding: 120px 120px 120px 30px;
+     padding: 120px 0 80px;
     border-bottom: 1px solid white;
 }
 .footer-section h2{
