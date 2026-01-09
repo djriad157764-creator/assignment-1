@@ -281,3 +281,34 @@ margin-bottom: 16px;
     color: #627382;
     margin-bottom: 24px;
 }
+footer{
+   
+    background: #001931;
+  
+}
+.footer-section{
+    width: 85%;
+     display: flex;
+     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+     padding: 120px 120px 120px 30px;
+    border-bottom: 1px solid white;
+}
+.footer-section h2{
+    font-size: 20px;
+    margin-bottom: 16px;
+    
+   
+}
+.footer-section .png{
+  display: flex;
+  gap: 16px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  30px;
+    padding-bottom: 30px;
+}
